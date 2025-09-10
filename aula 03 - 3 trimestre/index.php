@@ -15,7 +15,18 @@
 
             echo "meu nome é ".$nome1 ." e minha dupla é " .$nome2;
             echo "<br>meu nome é $nome1 e minha dupla é $nome2";
-            echo "<br><br>a soma de $n1 com $n2 é igual a $soma.";
+
+            echo "<br><br>a soma de $n1 com $n2 é igual a: $soma.";
+
+            echo"<br><br>a subtração dos número $n1 e $n2 é igual a: " .($n1-$n2) .".";
+
+            echo"<br><br>a multiplicação dos números $n1 e $n2 é igual a: " .($n1*$n2) .".";
+
+            echo"<br><br>a divisão dos números $n1 e $n2 é igual a: " .($n1/$n2) .".";
+
+            echo"<br><br>o resto da divião dos números $n1 e $n2 é igual a: " .($n1%$n2) .".";
+
+
         ?>
     </body>
 </html>
